@@ -12,10 +12,10 @@ function breatheAnimation (){
     container.className = 'container grow'
 
     setTimeout(()=> {
-        text.innerText = 'HOOOOOLD!'
+        text.innerText = 'HOOOOOLD IT!'
 
         setTimeout(() => {
-            text.innerText = 'EXHALE!'
+            text.innerText = 'EXHALE! :)'
             container.className = 'container shrink'
 
         }, holdTime)
